@@ -17,7 +17,7 @@ async function run (): Promise<void> {
 
     responseMsg.done()
   } else {
-    $.msg('YouTube Enhance', '脚本需要更新', '外部资源 -> 全部更新')
+    $.msg('YouTube Enhance', 'Update Available', 'External Resources -> Update All')
     $.exit()
   }
 }
